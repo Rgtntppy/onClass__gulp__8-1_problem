@@ -1,0 +1,38 @@
+@mixin btn($color) {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+
+  @if ($color == "red") {
+    background-color: red;
+    &:hover {
+      background-color: darken(red, 10%);
+    }
+  } @else if ($color == "blue") {
+    background-color: blue;
+    &:hover {
+      background-color: darken(blue, 10%);
+    }
+  } @else if ($color == "green") {
+    background-color: green;
+    &:hover {
+      background-color: darken(green, 10%);
+    }
+  }
+}
+
+.btn-red {
+  @include btn("red");
+}
+
+.btn-blue {
+  @include btn("blue");
+}
+
+.btn-green {
+  @include btn("green");
+}

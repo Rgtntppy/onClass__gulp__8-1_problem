@@ -1,0 +1,19 @@
+{
+  "name": "onclass__gulp__8-1_problem",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.62.0"
+  }
+}

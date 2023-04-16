@@ -1,0 +1,41 @@
+.btn-red {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background-color: red;
+}
+.btn-red:hover {
+  background-color: #cc0000;
+}
+
+.btn-blue {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background-color: blue;
+}
+.btn-blue:hover {
+  background-color: #0000cc;
+}
+
+.btn-green {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background-color: green;
+}
+.btn-green:hover {
+  background-color: #004d00;
+}
